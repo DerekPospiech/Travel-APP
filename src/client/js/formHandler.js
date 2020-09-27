@@ -3,9 +3,6 @@
 function handleSubmit(event) {
     event.preventDefault()
 
-    // check what text was put into the form field
-    let formText = document.getElementById('search').value
-
     let country = document.getElementById('Country').value;
     let state = document.getElementById('State').value;
     let city = document.getElementById('City').value;
