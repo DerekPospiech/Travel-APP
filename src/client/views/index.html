@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <h1>Travel Planner</h1>
+            </div>
+        </header>
+
+        <main>
+            <section id="travelPic">
+                <img src="Images/travelplanner_pic.jpg" alt="Travel Map">
+            <section>
+
+            <section id="tripInfo">
+                <h3>Input Trip Info: </h3>
+                <form onsubmit="return handleSubmit(event)">
+                    <label type="text">Destination Info</label><br><br> 
+                    <label for="Country">Country:</label><br>
+                    <input type="text" id="Country" name="Country"><br>
+                    <label for="State">State:</label><br>
+                    <input type="text" id="State" name="State"><br>
+                    <label for="City">City:</label><br>
+                    <input type="text" id="City" name="City"><br>
+
+                    <label for="Departure Date">Departure Date:</label><br>
+                    <input type="date" id="Departure Date" name="Departure Date" min="2020-09-20"><br>
+                    <label for="Return Date">Return Date:</label><br>
+                    <input type="date" id="Return Date" name="Return Date" min="2020-09-20"><br><br>
+
+                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section id="results">
+                <!-- This is section to display results -->
+            </section>
+        </main>
+
+        <footer>
+        </footer>
+    
+        </body>
+</html>
